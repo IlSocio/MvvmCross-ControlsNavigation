@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
-using Cirrious.CrossCore;
-using Cirrious.MvvmCross.ViewModels;
 using MupApps.MvvmCross.Plugins.ControlsNavigation;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 
 namespace MupApps.MvvmCross.Plugins.ControlsNavigation.WindowsPhone
 {

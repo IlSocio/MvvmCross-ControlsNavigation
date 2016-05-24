@@ -3,24 +3,24 @@
 // MvvmCross - Controls Navigation Plugin is licensed using Microsoft Public License (Ms-PL)
 // 
 
-using Cirrious.MvvmCross.Touch.Views.Presenters;
-using Cirrious.MvvmCross.Views;
+using MvvmCross.Core.Views;
+using MvvmCross.iOS.Views.Presenters;
 using UIKit;
 
-namespace MupApps.MvvmCross.Plugins.ControlsNavigation.Touch
+namespace MupApps.MvvmCross.Plugins.ControlsNavigation.iOS
 {
-    public class MvxTouchControlPresenter
-        : MvxControlPresenter, IMvxTouchViewPresenter
+    public class MvxIosControlPresenter
+        : MvxControlPresenter, IMvxIosViewPresenter
     {
-        protected IMvxTouchViewPresenter TouchViewPresenter
+        protected IMvxIosViewPresenter TouchViewPresenter
         {
             get
             {
-                return _viewPresenter as IMvxTouchViewPresenter;
+                return _viewPresenter as IMvxIosViewPresenter;
             }
         }
 
-        public MvxTouchControlPresenter(IMvxViewPresenter viewPresenter) : base(viewPresenter)
+        public MvxIosControlPresenter(IMvxViewPresenter viewPresenter) : base(viewPresenter)
         {
         }
 

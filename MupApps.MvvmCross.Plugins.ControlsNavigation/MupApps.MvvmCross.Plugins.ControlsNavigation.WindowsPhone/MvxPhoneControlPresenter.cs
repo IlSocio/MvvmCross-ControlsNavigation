@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Cirrious.MvvmCross.Views;
-using Cirrious.MvvmCross.WindowsPhone.Views;
+
+
+using MvvmCross.WindowsPhone.Views;
+using MvvmCross.Core.Views;
+
 
 namespace MupApps.MvvmCross.Plugins.ControlsNavigation.WindowsPhone
 {

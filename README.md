@@ -36,12 +36,12 @@ MvvmCross plugin that allows placing multiple ViewModels in the same View as Con
     }
 	```
 
-	Touch:
+	Ios:
 	```
-	protected override IMvxTouchViewPresenter CreatePresenter()
+	protected override IMvxIosViewPresenter CreatePresenter()
 	{
         var viewPresenter = base.CreatePresenter();
-        return new MvxTouchControlPresenter(viewPresenter);
+        return new MvxIosControlPresenter(viewPresenter);
 	}
 	```
 

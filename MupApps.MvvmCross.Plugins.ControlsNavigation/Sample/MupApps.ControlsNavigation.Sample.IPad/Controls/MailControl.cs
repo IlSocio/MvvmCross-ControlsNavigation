@@ -9,7 +9,7 @@ using MupApps.MvvmCross.Plugins.ControlsNavigation.Touch;
 
 namespace MupApps.ControlsNavigation.Sample.IPad
 {
-	public partial class MailControl : MvxTouchControl
+	public partial class MailControl : MvxIosControl
 	{
 		public MailControl () : base ("MailControl", null)
 		{

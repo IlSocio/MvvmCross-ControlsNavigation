@@ -10,7 +10,7 @@ using MupApps.MvvmCross.Plugins.ControlsNavigation.Touch;
 
 namespace MupApps.ControlsNavigation.Sample.IPad
 {
-	public partial class FolderControl : MvxTouchControl
+	public partial class FolderControl : MvxIosControl
 	{
 		public FolderControl () : base ("FolderControl", null)
 		{

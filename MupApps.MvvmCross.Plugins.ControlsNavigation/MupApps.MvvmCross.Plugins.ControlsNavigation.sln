@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MupApps.MvvmCross.Plugins.ControlsNavigation", "MupApps.MvvmCross.Plugins.ControlsNavigation\MupApps.MvvmCross.Plugins.ControlsNavigation.csproj", "{8EC1274E-99E6-4175-A113-8083CE23391C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{3FD8FC85-CB0B-471B-B065-F86E59B823BD}"
@@ -38,7 +40,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{92FD71
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MupApps.MvvmCross.Plugins.ControlsNavigation.Droid", "MupApps.MvvmCross.Plugins.ControlsNavigation.Droid\MupApps.MvvmCross.Plugins.ControlsNavigation.Droid.csproj", "{4ABEBE4F-FA21-4A4F-BF41-CDE1DE342A7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MupApps.MvvmCross.Plugins.ControlsNavigation.Touch", "MupApps.MvvmCross.Plugins.ControlsNavigation.Touch\MupApps.MvvmCross.Plugins.ControlsNavigation.Touch.csproj", "{267FE534-2D9A-4ABA-8A69-BD25BF629145}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MupApps.MvvmCross.Plugins.ControlsNavigation.iOS", "MupApps.MvvmCross.Plugins.ControlsNavigation.Touch\MupApps.MvvmCross.Plugins.ControlsNavigation.iOS.csproj", "{267FE534-2D9A-4ABA-8A69-BD25BF629145}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MupApps.MvvmCross.Plugins.ControlsNavigation.Wpf", "MupApps.MvvmCross.Plugins.ControlsNavigation.Wpf\MupApps.MvvmCross.Plugins.ControlsNavigation.Wpf.csproj", "{C4480A20-C692-4078-A55F-036B3F283504}"
 EndProject

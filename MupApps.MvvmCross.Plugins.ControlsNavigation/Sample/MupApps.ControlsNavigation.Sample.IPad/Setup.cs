@@ -27,7 +27,7 @@ namespace MupApps.ControlsNavigation.Sample.IPad
         protected override IMvxTouchViewPresenter CreatePresenter()
 	    {
             var viewPresenter = base.CreatePresenter();
-            return new MvxTouchControlPresenter(viewPresenter);
+            return new MvxIosControlPresenter(viewPresenter);
 	    }
 	}
 }

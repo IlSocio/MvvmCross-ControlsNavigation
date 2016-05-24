@@ -9,15 +9,15 @@ using Android.Graphics;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Cirrious.CrossCore;
-using Cirrious.MvvmCross.Binding.BindingContext;
-using Cirrious.MvvmCross.Binding.Droid.BindingContext;
-using Cirrious.MvvmCross.Binding.Droid.Views;
-using Cirrious.MvvmCross.ViewModels;
+using MvvmCross.Binding.BindingContext;
+using MvvmCross.Binding.Droid.Views;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Binding.Droid.BindingContext;
+using MvvmCross.Platform;
 
 namespace MupApps.MvvmCross.Plugins.ControlsNavigation.Droid
 {
-    public class MvxAndroidControl : FrameLayout, IMvxControl, IMvxDataContextChanged, IMvxBindingContextOwner, IMvxLayoutInflater
+    public class MvxAndroidControl : FrameLayout, IMvxControl, IMvxDataContextChanged, IMvxBindingContextOwner, IMvxLayoutInflaterHolder
     {
         public IMvxBindingContext BindingContext { get; set; }
 

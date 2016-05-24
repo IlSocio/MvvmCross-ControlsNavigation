@@ -7,8 +7,8 @@ using System;
 using Windows.ApplicationModel;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Cirrious.CrossCore;
-using Cirrious.MvvmCross.ViewModels;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 
 namespace MupApps.MvvmCross.Plugins.ControlsNavigation.WindowsStore
 {

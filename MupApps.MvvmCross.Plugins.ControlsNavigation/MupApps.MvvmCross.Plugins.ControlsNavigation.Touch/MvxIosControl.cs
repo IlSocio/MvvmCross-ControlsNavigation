@@ -4,15 +4,14 @@
 // 
 
 using System;
-using Cirrious.CrossCore;
-using Cirrious.CrossCore.Touch;
-using Cirrious.MvvmCross.Touch.Views;
-using Cirrious.MvvmCross.ViewModels;
 using Foundation;
+using MvvmCross.iOS.Views;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 
-namespace MupApps.MvvmCross.Plugins.ControlsNavigation.Touch
+namespace MupApps.MvvmCross.Plugins.ControlsNavigation.iOS
 {
-    public class MvxTouchControl : MvxViewController, IMvxControl
+    public class MvxIosControl : MvxViewController, IMvxControl
     {
         public new IMvxViewModel ViewModel
         {
@@ -28,7 +27,7 @@ namespace MupApps.MvvmCross.Plugins.ControlsNavigation.Touch
 
         private readonly IMvxControlsContainer _container;
 
-		public MvxTouchControl(string nibName, NSBundle bundle) : base(nibName, bundle)
+		public MvxIosControl(string nibName, NSBundle bundle) : base(nibName, bundle)
         {
             //Hack: iOS crashes if you create a MvxUIViewController without DataContext
 			DataContext = new object ();
