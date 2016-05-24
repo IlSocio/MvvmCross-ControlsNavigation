@@ -4,9 +4,9 @@
 // 
 
 using Android.Content;
-using Cirrious.CrossCore.Platform;
-using Cirrious.MvvmCross.Droid.Platform;
-using Cirrious.MvvmCross.ViewModels;
+using MvvmCross.Platform.Platform;
+using MvvmCross.Droid.Platform;
+using MvvmCross.Core.ViewModels;
 
 namespace MupApps.ControlsNavigation.Sample.Droid
 {

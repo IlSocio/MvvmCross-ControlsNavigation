@@ -4,8 +4,8 @@
 // 
 
 using System;
-using Cirrious.MvvmCross.Binding.BindingContext;
-using Cirrious.MvvmCross.Binding.Touch.Views;
+using MvvmCross.Binding.BindingContext;
+using MvvmCross.Binding.iOS.Views;
 using Foundation;
 using MupApps.ControlsNavigation.Sample.Core.Model;
 using UIKit;

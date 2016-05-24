@@ -75,7 +75,7 @@ namespace MupApps.ControlsNavigation.Sample.WindowsStore
                 var setup = new Setup(rootFrame);
                 setup.Initialize();
 
-                var start = Cirrious.CrossCore.Mvx.Resolve<Cirrious.MvvmCross.ViewModels.IMvxAppStart>();
+                var start = CrossCore.Mvx.Resolve<MvvmCross.ViewModels.IMvxAppStart>();
                 start.Start();
             }
 

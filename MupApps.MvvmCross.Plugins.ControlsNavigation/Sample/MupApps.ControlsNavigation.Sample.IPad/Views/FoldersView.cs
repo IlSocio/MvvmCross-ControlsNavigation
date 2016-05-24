@@ -4,11 +4,11 @@
 // 
 
 using System.Linq;
-using Cirrious.MvvmCross.Touch.Views;
-using Cirrious.MvvmCross.Binding.BindingContext;
 using MupApps.ControlsNavigation.Sample.Core.ViewModels;
 using MupApps.MvvmCross.Plugins.ControlsNavigation;
-using Cirrious.MvvmCross.Binding.Touch.Views;
+using MvvmCross.iOS.Views;
+using MvvmCross.Binding.BindingContext;
+using MvvmCross.Binding.iOS.Views;
 
 namespace MupApps.ControlsNavigation.Sample.IPad
 {

@@ -4,13 +4,13 @@
 // 
 
 using UIKit;
-using Cirrious.CrossCore.Platform;
-using Cirrious.MvvmCross.ViewModels;
-using Cirrious.MvvmCross.Touch.Platform;
+using MvvmCross.Platform.Platform;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.iOS.Platform;
 
 namespace MupApps.ControlsNavigation.Sample.IPhone
 {
-	public class Setup : MvxTouchSetup
+	public class Setup : MvxIosSetup
 	{
 		public Setup(MvxApplicationDelegate applicationDelegate, UIWindow window)
             : base(applicationDelegate, window)

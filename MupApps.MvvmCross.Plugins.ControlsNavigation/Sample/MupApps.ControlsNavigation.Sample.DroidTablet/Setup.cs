@@ -4,10 +4,10 @@
 // 
 
 using Android.Content;
-using Cirrious.CrossCore.Platform;
-using Cirrious.MvvmCross.Droid.Platform;
-using Cirrious.MvvmCross.Droid.Views;
-using Cirrious.MvvmCross.ViewModels;
+using MvvmCross.Platform.Platform;
+using MvvmCross.Droid.Platform;
+using MvvmCross.Droid.Views;
+using MvvmCross.Core.ViewModels;
 using MupApps.MvvmCross.Plugins.ControlsNavigation.Droid;
 
 namespace MupApps.ControlsNavigation.Sample.DroidTablet

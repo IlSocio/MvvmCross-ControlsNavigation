@@ -3,10 +3,11 @@
 // MvvmCross - Controls Navigation Plugin is licensed using Microsoft Public License (Ms-PL)
 // 
 
-using Cirrious.CrossCore.Platform;
-using Cirrious.MvvmCross.ViewModels;
-using Cirrious.MvvmCross.WindowsPhone.Platform;
+using MvvmCross.Platform.Platform;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.WindowsPhone.Platform;
 using Microsoft.Phone.Controls;
+
 
 namespace MupApps.ControlsNavigation.Sample.WindowsPhone
 {

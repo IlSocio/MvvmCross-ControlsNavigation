@@ -4,7 +4,7 @@
 // 
 
 using System.Collections.Generic;
-using Cirrious.MvvmCross.ViewModels;
+using MvvmCross.Core.ViewModels;
 using MupApps.ControlsNavigation.Sample.Core.Model;
 using MupApps.ControlsNavigation.Sample.Core.Services;
 

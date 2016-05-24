@@ -5,7 +5,7 @@
 
 using Android.App;
 using Android.Content.PM;
-using Cirrious.MvvmCross.Droid.Views;
+using MvvmCross.Droid.Views;
 
 namespace MupApps.ControlsNavigation.Sample.DroidTablet
 {

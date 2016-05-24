@@ -5,7 +5,7 @@
 
 using System;
 using System.Diagnostics;
-using Cirrious.CrossCore.Platform;
+using MvvmCross.Platform.Platform;
 
 namespace MupApps.ControlsNavigation.Sample.WindowsPhone
 {

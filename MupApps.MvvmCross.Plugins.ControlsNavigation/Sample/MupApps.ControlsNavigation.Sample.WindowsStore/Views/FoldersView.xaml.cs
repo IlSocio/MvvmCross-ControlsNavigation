@@ -5,7 +5,6 @@
 
 using System.Linq;
 using Windows.UI.Xaml;
-using Cirrious.MvvmCross.WindowsStore.Views;
 using MupApps.ControlsNavigation.Sample.Core.ViewModels;
 
 namespace MupApps.ControlsNavigation.Sample.WindowsStore.Views

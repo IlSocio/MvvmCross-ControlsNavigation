@@ -4,9 +4,10 @@
 // 
 
 using System.Collections.Generic;
-using Cirrious.MvvmCross.ViewModels;
+
 using MupApps.ControlsNavigation.Sample.Core.Model;
 using MupApps.ControlsNavigation.Sample.Core.Services;
+using MvvmCross.Core.ViewModels;
 
 namespace MupApps.ControlsNavigation.Sample.Core.ViewModels
 {

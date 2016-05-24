@@ -1,6 +1,11 @@
+// DebugTrace.cs
+// (c) Copyright Christian Ruiz @_christian_ruiz
+// MvvmCross - Controls Navigation Plugin is licensed using Microsoft Public License (Ms-PL)
+// 
+
 using System;
 using System.Diagnostics;
-using Cirrious.CrossCore.Platform;
+using MvvmCross.Platform.Platform;
 
 namespace MupApps.ControlsNavigation.Sample.Wpf
 {
@@ -24,7 +29,7 @@ namespace MupApps.ControlsNavigation.Sample.Wpf
             }
             catch (FormatException)
             {
-                Trace(MvxTraceLevel.Error, tag, "Exception during trace of {0} {1}", level, message);
+                Trace(MvxTraceLevel.Error, tag, "Exception during trace of {0} {1} {2}", level, message);
             }
         }
     }

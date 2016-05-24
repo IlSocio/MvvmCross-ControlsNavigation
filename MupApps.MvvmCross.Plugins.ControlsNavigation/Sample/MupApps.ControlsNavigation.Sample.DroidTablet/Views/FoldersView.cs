@@ -7,7 +7,7 @@ using System.Linq;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
-using Cirrious.MvvmCross.Droid.Views;
+using MvvmCross.Droid.Views;
 using MupApps.ControlsNavigation.Sample.Core.ViewModels;
 
 namespace MupApps.ControlsNavigation.Sample.DroidTablet.Views

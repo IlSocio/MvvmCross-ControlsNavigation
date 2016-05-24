@@ -3,11 +3,13 @@
 // MvvmCross - Controls Navigation Plugin is licensed using Microsoft Public License (Ms-PL)
 // 
 
-using Cirrious.CrossCore.IoC;
+
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.IoC;
 
 namespace MupApps.ControlsNavigation.Sample.Core
 {
-    public class App : Cirrious.MvvmCross.ViewModels.MvxApplication
+    public class App : MvxApplication
     {
         public override void Initialize()
         {
@@ -15,7 +17,7 @@ namespace MupApps.ControlsNavigation.Sample.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-				
+
             RegisterAppStart<ViewModels.FoldersViewModel>();
         }
     }

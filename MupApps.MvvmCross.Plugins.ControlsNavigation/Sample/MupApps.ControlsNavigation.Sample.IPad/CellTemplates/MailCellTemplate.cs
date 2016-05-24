@@ -6,8 +6,8 @@
 using System;
 using Foundation;
 using UIKit;
-using Cirrious.MvvmCross.Binding.BindingContext;
-using Cirrious.MvvmCross.Binding.Touch.Views;
+using MvvmCross.Binding.BindingContext;
+using MvvmCross.Binding.iOS.Views;
 using MupApps.ControlsNavigation.Sample.Core.Model;
 
 namespace MupApps.ControlsNavigation.Sample.IPad

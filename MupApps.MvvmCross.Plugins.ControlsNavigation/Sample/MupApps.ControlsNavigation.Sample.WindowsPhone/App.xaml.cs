@@ -11,6 +11,8 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using MupApps.ControlsNavigation.Sample.WindowsPhone.Resources;
+using MvvmCross.Platform;
+using MvvmCross.Core.ViewModels;
 
 namespace MupApps.ControlsNavigation.Sample.WindowsPhone
 {
@@ -75,7 +77,7 @@ namespace MupApps.ControlsNavigation.Sample.WindowsPhone
         {
             args.Cancel = true;
             RootFrame.Navigating -= RootFrameOnNavigating;
-            RootFrame.Dispatcher.BeginInvoke(() => { Cirrious.CrossCore.Mvx.Resolve<Cirrious.MvvmCross.ViewModels.IMvxAppStart>().Start(); });
+            RootFrame.Dispatcher.BeginInvoke(() => { Mvx.Resolve<IMvxAppStart>().Start(); });
         }
 
         // Code to execute when the application is activated (brought to foreground)

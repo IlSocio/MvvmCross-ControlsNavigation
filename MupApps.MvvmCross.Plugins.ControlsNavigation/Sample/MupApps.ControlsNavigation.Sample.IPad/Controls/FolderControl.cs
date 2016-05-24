@@ -3,10 +3,10 @@
 // MvvmCross - Controls Navigation Plugin is licensed using Microsoft Public License (Ms-PL)
 // 
 
-using Cirrious.MvvmCross.Binding.BindingContext;
+using MvvmCross.Binding.BindingContext;
 using MupApps.ControlsNavigation.Sample.Core.ViewModels;
-using Cirrious.MvvmCross.Binding.Touch.Views;
-using MupApps.MvvmCross.Plugins.ControlsNavigation.Touch;
+using MvvmCross.Binding.iOS.Views;
+using MupApps.MvvmCross.Plugins.ControlsNavigation.iOS;
 
 namespace MupApps.ControlsNavigation.Sample.IPad
 {

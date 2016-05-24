@@ -5,9 +5,9 @@
 
 using Foundation;
 using UIKit;
-using Cirrious.CrossCore;
-using Cirrious.MvvmCross.Touch.Platform;
-using Cirrious.MvvmCross.ViewModels;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.iOS.Platform;
+using MvvmCross.Platform;
 
 namespace MupApps.ControlsNavigation.Sample.IPad
 {

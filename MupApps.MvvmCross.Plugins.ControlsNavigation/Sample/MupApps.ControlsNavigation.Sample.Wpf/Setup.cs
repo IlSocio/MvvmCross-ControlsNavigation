@@ -1,10 +1,10 @@
 using System.Windows.Threading;
-using Cirrious.CrossCore.Platform;
-using Cirrious.MvvmCross.ViewModels;
-using Cirrious.MvvmCross.Views;
-using Cirrious.MvvmCross.Wpf.Platform;
-using Cirrious.MvvmCross.Wpf.Views;
 using MupApps.MvvmCross.Plugins.ControlsNavigation.Wpf;
+using MvvmCross.Wpf.Platform;
+using MvvmCross.Wpf.Views;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.Platform;
+using MvvmCross.Core.Views;
 
 namespace MupApps.ControlsNavigation.Sample.Wpf
 {
